@@ -1,0 +1,13 @@
+1. Customers table created- create table customers(userid varchar2(10),password varchar2(10),fname varchar2(10),lname varchar2(10),mobno number(12));
+
+inserted rows into customers:
+
+        1.  	insert into customers values('shiv','shivp','Shivkumar','Hegonde','9405462511');
+        2.	    insert into customers values('ketaki','ketakip','Ketaki','Kale','9988774455');
+
+2.Employees/Staff table created- create table staffs(userid varchar2(10),password varchar2(10),fname varchar2(10),lname varchar2(10),designation varchar2(20),mobno number(12));
+
+inserted rows into staffs:
+        1.      create table staffs(userid varchar2(10),password varchar2(10),fname varchar2(10),lname varchar2(10),designation varchar2(20),mobno number(12));
+
+

@@ -1,0 +1,32 @@
+select * from employee;
+
+create table Breakfast(
+food_id number primary key,food_name varchar2(20),price number);
+
+create table Lunch(
+food_id number primary key,food_name varchar2(20),price number);
+
+create table Dinner(
+food_id number primary key,food_name varchar2(20),price number);
+
+create table Drinks(
+drink_id number primary key,drink_name varchar2(20),price number);
+
+create table Transport(
+vehical_id number primary key,vehical_no number,vehical_type varchar2(20));
+
+
+create table RegisterComplaints(
+complaint_id number primary key,complaint_type varchar2(20),complaint varchar2(20));
+
+desc lunch
+insert into Dinner values(1,'ROTI',70);
+insert into Dinner values(2,'NAN-ROTI',70);
+insert into Dinner values(3,'PARATHA',70);
+insert into Dinner values(4,'VEG MARATHA',70);
+insert into Dinner values(5,'DAL TADKA',70);
+
+
+insert into Drinks values(1,'COLD COFFEE',70);
+insert into Drinks values(2,'JUICE',70);
+insert into Drinks values(3,'MILK SHAKE',70);
